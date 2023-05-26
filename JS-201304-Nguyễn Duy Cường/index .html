@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="from">
+        <h1>Thông tin học viên</h1>
+        <label for="">Họ Và Tên</label> 
+        <input type="text" class="name"><br>
+         <label for="" >Email</label>
+        <input type="email" class="email"><br>
+         <label for="" >Số Điện Thoại</label>
+        <input type="number" class="numberPhone"><br>
+         <label for="" >Quê quán</label>
+        <input type="text"class="hometown"><br>
+         <label >Nam</label>
+        <input type="radio" for="" class="male">
+         <label for="" class="nu">Nữ</label>
+        <input type="radio" class="female"> <br>    
+        <button class="btn">Lưu</button>
+    </div>
+    <div class="renderTable">
+        <h2>Danh Sách Học Viên</h2>
+        <label>Tìm kiếm tên học viên:</label>
+        <input type="text" id="search">
+        <button onclick="timkiem()">Tìm kiếm</button>
+        <table id="rendersearch" border="1px solid black">
+
+        </table>
+        <table border="1px solid black" id="table">
+            <tr>
+                <th>#</th>
+                <th>Họ và tên</th>
+                <th>Email</th>
+                <th>Điện Thoại</th>
+                <th>Địa chỉ</th>
+                <th>Gender</th>
+                <th>Hành Động</th>
+                <th><button>Sắp xếp (anpha b)</button></th>
+            </tr> 
+        </table></div>
+    
+   
+</body>
+<script src="./index.js"></script>
+</html>

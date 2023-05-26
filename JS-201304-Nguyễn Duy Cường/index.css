@@ -1,0 +1,30 @@
+.from{
+    border: 1px solid black;
+    width: 25%;
+    line-height: 50px;
+    padding-left: 50px;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.renderTable{
+    border: 1px solid black;
+    width: 50%;
+    padding-left: 50px;;
+}
+.name{
+    margin-left: 30px;
+}
+.email{
+    margin-left: 60px;
+}
+.numberPhone{
+    margin-left: 5px;
+}
+.hometown{
+    margin-left: 35px;
+}
+.nu{
+    margin-left: 50px;
+}
